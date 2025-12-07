@@ -21,6 +21,6 @@ RUN pip install --no-cache-dir -e .
 # DO NOT train inside docker build (commented)
 # RUN python pipeline/training_pipeline.py
 
-EXPOSE 5000
+EXPOSE 8080
 
 CMD ["python", "app.py"]
