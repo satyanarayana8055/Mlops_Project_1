@@ -206,3 +206,9 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 >>>>>>> 94dee5a259eaa7a345f5e09986eaceebd9af05c1
+
+
+mlops_env/
+mlruns/
+MLOPS_PROJECT_1.egg-info/
+logs/
