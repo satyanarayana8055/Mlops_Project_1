@@ -9,6 +9,7 @@ WORKDIR /app
 # Install required system packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
     libgomp1 \
+    libstdc++6 \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
